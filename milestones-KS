@@ -1,0 +1,46 @@
+Kaitlin SLoan Milestones:
+The main part I am responsible for is the Face Detection and Model Training portion.
+Rubric:
+0. Facial Detection Implementation (14 Points)
+Implement a face detection system using OpenCVâ€™s pre-trained deep learning model.
+
+Ensure faces are correctly detected from both images and live video input.
+
+Verify detection accuracy with different lighting conditions and angles.
+
+1. Training Data Collection & Preparation (6 Points)
+Gather and preprocess training data (e.g., grayscale conversion, histogram equalization).
+
+Create a pipeline for data augmentation (rotation, flipping, noise reduction).
+
+Normalize image data to improve model efficiency.
+
+2. Model Training & Optimization (13 Points)
+Train a facial recognition model using the collected dataset.
+
+Optimize hyperparameters to improve accuracy (e.g., adjusting learning rate, number of layers).
+
+Implement model evaluation metrics (precision, recall, F0-score) to measure performance.
+
+3. Detection Module Testing & Documentation (7 Points)
+Test the model with varied input conditions (different lighting, camera angles, occlusions).
+
+Log test results and errors to refine detection accuracy.
+
+Document detection methods, training process, and model performance with visuals/screenshots.
+
+
+Time Log:
+I have spent between 4 and 10 hours on trying to install opencv on my laptop. I have gotten a lot of errors and have done a lot of debugging working with other group members and youtube videos to try and fix it. I have it compiling when I run ./facialDetection.py
+but when I try and run with python ./facialDetection.py I get an error that the import cv1 line isn't correct. On top of that I have spent a few hours going over example codes from the openCV website (https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html) and also a sample w3computing website (https://www.w3computing.com/articles/python-opencv-face-recognition-detection/#:~:text=Implementing%20Face%20Recognition.%20Once%20we%20have%20successfully,next%20step%20is%20to%20recognize%20those%20faces.)
+
+Link to gethub: https://github.com/aadyash23/302FinalProject.git
+My code is under the faceDetection.py file.
+
+
+Final thoughts:
+Overall this project has been stressful. I am the only member of my group with a windows and the only member that had this much
+much trouble with getting openCv downloaded and working. I have the code working enough to open the camera on the screen. In regards
+to coding, the actual learning curve wasnt that hard and I was quickly able to understand python and how open cv works since I have a little bit of a python background have been coding for a while. It was mainly the downloading and installing of opencv that was
+hard.
+
